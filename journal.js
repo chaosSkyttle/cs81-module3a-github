@@ -19,15 +19,15 @@ function multiplyNum(a = 1, b = 1){
 }
 
 
-function tellTime(hour, minute, ampm){
+function tellTime(hour = "00", minute = "00", ampm = "am"){
     return "It is " + hour + ":" + minute + ampm;
 }
 
 
-function quantity(num, objects){
+function quantity(num = 0, objects = "objects"){
     return "I have " + num + " " + objects;
 }
 
-function date(day, month, year){
-    return day + "/" + month + "/" + year;
+function date(month = "01", day = "01", year = "2000"){
+    return month + "/" + day + "/" + year;
 }
